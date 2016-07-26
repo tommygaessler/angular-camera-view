@@ -13,21 +13,24 @@ Here is the data that will be used. It is included in the `ng-init` directive fo
 ```javascript
 [
   {
-    title: 'Nikon D3100 DSLR',
+    id: 1,
+    name: 'Nikon D3100 DSLR',
     image: 'http://ecx.images-amazon.com/images/I/713u2gDQqML._SX522_.jpg',
     rating: 4,
     price: 369.99,
     onSale: true
   },
   {
-    title: 'Canon EOS 70D',
+    id: 2,
+    name: 'Canon EOS 70D',
     image: 'http://ecx.images-amazon.com/images/I/81U00AkAUWL._SX522_.jpg',
     rating: 2,
     price: 1099.0,
     onSale: false
   },
   {
-    title: 'Nikon D810A',
+    id: 3,
+    name: 'Nikon D810A',
     image:'http://ecx.images-amazon.com/images/I/91wtXIfLl2L._SX522_.jpg',
     rating: 3,
     price: 3796.95,
