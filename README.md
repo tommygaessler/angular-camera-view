@@ -39,7 +39,7 @@ Here is the data that will be used. It is included in the `ng-init` directive fo
 ]
 ```
 
-## Requirements
+## Part 1 - Requirements
 
 The camera shop page will require the following:
 
@@ -49,3 +49,15 @@ The camera shop page will require the following:
 1. The ability to sort by name or rating (default is name)
 1. The ability to search to filter the results (keeping the same order).
 1. A custom filter to handle the conversion of the rating from a number to asterisks. It is assumed that the rating will be an integer.
+
+## Part 2 - Requirements
+
+The goal of part 2 is to add controllers to the exercise implementing a cart functionality.
+
+![Camera Shop Example Part 2](images/camera_example_part2.gif)
+
+1. Create two controllers, one to manage the cart, and one to manage the catalog of items.
+1. Remove all instances of `ng-init` and initialize any data into the controller. Ensure all `ng-model` variables are managed in a controller.
+1. When the user clicks "Add to Cart", the cart manages the item inserted. Subsequent adds increase the quantity of the item.
+1. User can remove an item from the cart by clicking on a button (it will remove the entire quantity of that item).
+1. The subtotal, tax, and total are calculated in place.
