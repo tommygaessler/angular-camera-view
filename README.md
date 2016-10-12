@@ -1,4 +1,4 @@
-# Angular Camera View
+# [Angular Camera View](https://tommygaessler.github.io/angular-camera-view/)
 
 In this assignment, you will use Angular built-in directives and filters as well as create your own filters to build a simple shopping page for cameras.
 
